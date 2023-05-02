@@ -1,0 +1,15 @@
+Em C++, existem várias estruturas de dados disponíveis para armazenamento e manipulação de elementos. Abaixo estão algumas das principais estruturas e suas características:
+
+Lista (list): Uma lista é uma estrutura de dados que armazena elementos em uma sequência encadeada. Cada elemento é representado por um nó, que contém um valor e um ponteiro para o próximo elemento da lista. A principal característica da lista é que a inserção e a exclusão de elementos podem ser realizadas em qualquer posição da sequência com tempo constante. As listas são frequentemente usadas para implementar algoritmos de ordenação, como o Merge Sort.
+
+Fila (queue): Uma fila é uma estrutura de dados que armazena elementos em uma ordem específica, seguindo o padrão "primeiro a entrar, primeiro a sair" (FIFO). Os elementos são adicionados à fila na parte de trás e removidos da frente. As filas são frequentemente usadas em sistemas de gerenciamento de tarefas, como um escalonador de processos.
+
+Pilha (stack): Uma pilha é uma estrutura de dados que armazena elementos em uma ordem específica, seguindo o padrão "último a entrar, primeiro a sair" (LIFO). Os elementos são adicionados ao topo da pilha e removidos do mesmo lugar. As pilhas são frequentemente usadas em algoritmos de busca em profundidade.
+
+Deque: Um deque é uma estrutura de dados que permite a inserção e a exclusão de elementos em ambas as extremidades da sequência. Ele é semelhante a uma lista duplamente encadeada, mas permite acesso constante ao primeiro e último elemento. Os deques são frequentemente usados em algoritmos de busca em largura, como a busca em largura em grafos.
+
+Vector: Um vector é uma estrutura de dados que armazena elementos em uma sequência contígua na memória. Os elementos podem ser acessados ​​por meio de um índice, o que torna o acesso a elementos individuais muito rápido. Os vectores são frequentemente usados para armazenar dados que precisam ser acessados ​​em ordem, como as coordenadas de um objeto em um jogo.
+
+Set: Um conjunto é uma estrutura de dados que armazena elementos em ordem crescente ou decrescente e não permite elementos duplicados. Ele usa uma árvore binária de busca para manter a ordem dos elementos. Os conjuntos são frequentemente usados para armazenar dados exclusivos e classificá-los em tempo logarítmico.
+
+Map: Um mapa é uma estrutura de dados que associa valores a chaves exclusivas. Ele também usa uma árvore binária de busca para manter as chaves em ordem e permite o acesso rápido aos valores associados a uma chave específica. Os mapas são frequentemente usados para armazenar dados que precisam ser pesquisados ​​por meio de uma chave exclusiva, como um dicionário.
